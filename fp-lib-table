@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name "DS1337S")(type "KiCad")(uri "F:/KiCad_Projects/_proj_libr/DS1337S.pretty")(options "")(descr ""))
-  (lib (name "DS1337S_")(type "KiCad")(uri "F:/KiCad_Projects/_proj_libr/DS1337S_.pretty")(options "")(descr ""))
+  (lib (name "DS1337S")(type "KiCad")(uri "F:/KiCad_Projects/_proj_libr/DS1337S")(options "")(descr "")(disabled))
+  (lib (name "DS1337S_")(type "KiCad")(uri "F:/KiCad_Projects/_proj_libr/DS1337S_")(options "")(descr ""))
+  (lib (name "ATMEGA")(type "KiCad")(uri "F:/KiCad_Projects/_proj_libr/ATMEGA328P-AU")(options "")(descr ""))
 )
