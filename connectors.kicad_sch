@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 4b2b9811-db76-459e-861c-e30716961aa2)
+  (uuid 380381c3-f15c-49df-9d22-95c719144536)
 
   (paper "A4")
 
@@ -346,7 +346,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 60.96 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4c6b20aa-9d03-4139-b458-1b5ae3dc90c1)
-    (property "Reference" "J?" (id 0) (at 61.595 27.94 0))
+    (property "Reference" "J1" (id 0) (at 61.595 27.94 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 61.595 30.48 0))
     (property "Footprint" "" (id 2) (at 60.96 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -364,7 +364,7 @@
   (symbol (lib_id "Connector:Conn_01x09_Male") (at 104.14 45.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e35eed2-01b8-4435-b992-dc2aba1bae89)
-    (property "Reference" "J?" (id 0) (at 104.775 30.48 0))
+    (property "Reference" "J3" (id 0) (at 104.775 30.48 0))
     (property "Value" "Conn_01x09_Male" (id 1) (at 104.775 33.02 0))
     (property "Footprint" "" (id 2) (at 104.14 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -387,7 +387,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 60.96 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e954c9ec-0092-4c16-8819-21357ce7bf5c)
-    (property "Reference" "J?" (id 0) (at 61.595 48.26 0))
+    (property "Reference" "J2" (id 0) (at 61.595 48.26 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 61.595 50.8 0))
     (property "Footprint" "" (id 2) (at 60.96 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -405,7 +405,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 106.68 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f9ff3eca-fcdf-4e0f-b20a-9aee52f708fc)
-    (property "Reference" "J?" (id 0) (at 107.95 67.31 0))
+    (property "Reference" "J4" (id 0) (at 107.95 67.31 0))
     (property "Value" "Conn_02x03_Odd_Even" (id 1) (at 107.95 69.85 0))
     (property "Footprint" "" (id 2) (at 106.68 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
