@@ -807,7 +807,6 @@
     )
   )
 
-
   (junction (at 99.06 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 0568ad09-e660-459d-93ac-36ba8302e35d)
   )
@@ -859,13 +858,13 @@
 
   (no_connect (at 226.06 45.72) (uuid 977aa19a-e0b8-4e39-b11a-c87d8114115f))
   (no_connect (at 226.06 73.66) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 226.06 76.2) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 195.58 78.74) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 195.58 73.66) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 195.58 76.2) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 195.58 55.88) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 195.58 53.34) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
-  (no_connect (at 195.58 81.28) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf595))
+  (no_connect (at 226.06 76.2) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf596))
+  (no_connect (at 195.58 78.74) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf597))
+  (no_connect (at 195.58 73.66) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf598))
+  (no_connect (at 195.58 76.2) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf599))
+  (no_connect (at 195.58 55.88) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf59a))
+  (no_connect (at 195.58 53.34) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf59b))
+  (no_connect (at 195.58 81.28) (uuid b12a84a9-cffb-4398-bf1f-8881b56cf59c))
 
   (polyline (pts (xy 177.8 114.3) (xy 208.28 114.3))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2002,7 +2001,7 @@
     (property "Value" "Battery" (id 1) (at 251.46 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DS1337S_:SOIC127P600X175-8N" (id 2) (at 251.46 46.736 90)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 251.46 46.736 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 251.46 46.736 90)
@@ -2222,7 +2221,7 @@
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/c4cbdec2-7bd4-4cee-8ad0-c4c5f2090f87"
-      (reference "BT1") (unit 1) (value "Battery") (footprint "DS1337S_:SOIC127P600X175-8N")
+      (reference "BT1") (unit 1) (value "Battery") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/af6b8cdb-2e7f-4ff9-bb75-06e45d8b39d4"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
