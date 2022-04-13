@@ -1298,7 +1298,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 7558c2ab-3e2f-4a39-92bb-6c2811f01e52)
   )
-  (label "Tx" (at 223.52 132.08 180)
+  (label "Rx" (at 223.52 132.08 180)
     (effects (font (size 1.27 1.27) bold) (justify right bottom))
     (uuid 7623eeb1-02d6-4845-9edd-6f7f3524df04)
   )
