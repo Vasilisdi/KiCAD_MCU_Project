@@ -457,6 +457,11 @@
       (net 10 "/Tx") (pinfunction "PD1") (pintype "bidirectional") (tstamp fb969eac-6be0-42e3-ba19-b3e7256aa941))
     (pad "32" smd rect locked (at -2.8 -4.3) (size 0.55 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "/D2") (pinfunction "PD2") (pintype "bidirectional") (tstamp bab8c17d-eabc-413a-9816-cac626549f84))
+    (model "${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/TQFP-32_7x7mm_P0.8mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
@@ -1337,7 +1342,7 @@
       (net 4 "Net-(C3-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 1d1d5606-3990-4560-9222-3157112a343e))
     (pad "2" smd rect locked (at 2.6 0 180) (size 3.5 2.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "Net-(C2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp ac09c582-8fde-45c6-b5a0-d3e3b4cb3b14))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_5.3x6.2mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1451,7 +1456,7 @@
       (net 24 "Net-(U1-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 583fc56f-29dc-4980-b5a0-f689942d767c))
     (pad "2" smd rect locked (at 2.6 0 90) (size 3.5 2.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "Net-(U1-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 262b80d4-8b9d-42b6-8d8c-52c6107f00d1))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_5.3x6.2mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
