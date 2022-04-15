@@ -94,9 +94,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "4_layer_MCU_datalogger _gerbers")
     )
   )
 
@@ -528,9 +528,9 @@
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 52e336a4-48ce-4d6d-9dbb-526f9b67296a))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 76943715-ad93-4abd-8092-bf8490e6213d))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp deb521de-21fd-446d-9da3-587b0d193085))
-    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 2 "/Vcc") (pintype "passive") (tstamp 070a122a-b561-4440-85a2-78fb6892266a))
-    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 21 "Net-(R1-Pad2)") (pintype "passive") (tstamp 9760e3d0-7aac-412e-b93b-94f89b184a2d))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -698,9 +698,9 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 5652246c-55bd-49e7-8846-b13c512e72f9))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 7c10d602-56c7-467a-8c96-1d9e5a0c5b9e))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 8096c6ca-0808-4d49-8b09-2a74d7fbfd7a))
-    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 2 "/Vcc") (pintype "passive") (tstamp 8927ee49-7e2a-4fe1-afcb-ffb93ccbcfb0))
-    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 20 "/RESET") (pintype "passive") (tstamp bfd5e012-b77f-49da-9ad8-c64a8c538c8c))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -740,9 +740,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 8182e083-1c45-4604-aeb5-c7adf4490983))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp bd718131-cfdc-4e79-add5-03f71f4d2ea3))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp dfe4bccc-5e7a-4ea5-b32e-dcedf6e0c1be))
-    (pad "1" smd roundrect locked (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 2 "/Vcc") (pintype "passive") (tstamp a86feab8-16ae-45bc-bffd-a2188f36a7dc))
-    (pad "2" smd roundrect locked (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 22 "Net-(R2-Pad2)") (pintype "passive") (tstamp e18b966f-2882-48e5-ae61-d8ed12332814))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -897,9 +897,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 6086f940-a38d-4dba-a03b-e7e2c22023a0))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 69c7510c-9dc9-4ce5-af24-0590b0c52d05))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp e80b2db0-878d-4427-85cb-94f9eaa4bcf3))
-    (pad "1" smd roundrect locked (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 2 "/Vcc") (pintype "passive") (tstamp 6af2605f-903f-47c0-b1cd-271bf9be9913))
-    (pad "2" smd roundrect locked (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 7 "/SCK") (pintype "passive") (tstamp f9455865-0bf4-4ff0-8caa-1480be2afddb))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -991,9 +991,9 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 44f0a22e-d720-48d6-8733-665d1ef4a2c9))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 8e2cc7d9-292e-49d5-8129-4d21d0795244))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp f6026c9b-9f77-4e35-a177-ccac381d1b26))
-    (pad "1" smd roundrect locked (at -0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 1 "GND") (pintype "passive") (tstamp 07995ef8-8e30-4d43-bab5-700234812355))
-    (pad "2" smd roundrect locked (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 6 "Net-(D2-Pad1)") (pintype "passive") (tstamp 29d884ed-7aee-456f-8aa4-117b3b9dbb0a))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1033,9 +1033,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 2a1f0390-355b-40e3-a7b6-e7d6d23e01ad))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 52ddc23e-bf38-4225-99d2-f6c4bb5622a5))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp abff787d-8a32-43df-a341-2e9337dd0d27))
-    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 8 "Net-(D3-Pad1)") (pintype "passive") (tstamp d99cb68a-9f0d-4273-b640-6eabc861dcd9))
-    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 1 "GND") (pintype "passive") (tstamp 3cd9a9fe-5b03-4269-81b2-26aee66bed5c))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1501,9 +1501,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 4e369f56-4caf-4dde-9d82-7f50a5c4373c))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 8541f415-d857-46af-8297-da10a5f2c05b))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp e0925977-4177-4f71-9d4b-f42b8f6429c7))
-    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 2 "/Vcc") (pintype "passive") (tstamp 789d3f5b-3534-4e8a-89c9-ca398e75eeeb))
-    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 9 "/SDA") (pintype "passive") (tstamp 5ac42122-bbcc-4bd5-997b-8794c7e18234))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1673,6 +1673,75 @@
   )
 
   (gr_rect (start 46.99 69.596) (end 96.266 100.838) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 96f4d188-fdc2-4104-a494-fa8edb0b4b10))
+  (gr_text "Board overall dimensions: " (at 98.54 79.265) (layer "User.1") (tstamp 02dc32d0-3d35-4cd8-be53-825162733acf)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Plated Board Edge: " (at 165.154286 92.81) (layer "User.1") (tstamp 1acf5582-352f-43bc-bd42-0be9bf2fcd51)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Copper Finish: " (at 98.54 88.295) (layer "User.1") (tstamp 1d131ace-cfa7-45e4-a251-c66330a559b9)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Min track/spacing: " (at 98.54 83.78) (layer "User.1") (tstamp 2b241dff-1fb7-498f-9bf7-72e4ffccf675)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Copper Layer Count: " (at 98.54 74.75) (layer "User.1") (tstamp 2ee6ebe8-ab38-4be3-8fb4-3f20417c3c22)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 131.097143 97.325) (layer "User.1") (tstamp 3e48d2f8-4ac5-4ebf-8b04-642e7535ea4a)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Min hole diameter: " (at 165.154286 83.78) (layer "User.1") (tstamp 5df557e3-2e80-42c8-819e-a7277dc2b7b3)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "4" (at 131.097143 74.75) (layer "User.1") (tstamp 5efa7e91-6047-4590-8add-9c0521e94079)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 189.997143 88.295) (layer "User.1") (tstamp 63c9ea16-05bc-4e8d-ba60-aeafdba32ab6)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Impedance Control: " (at 165.154286 88.295) (layer "User.1") (tstamp 6d37dea3-75e1-49c0-9514-44253aa2cfd4)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "49,3760 mm x 31,3420 mm" (at 131.097143 79.265) (layer "User.1") (tstamp 8238ad5b-0d11-42f2-aeba-d6201d84c218)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 189.997143 92.81) (layer "User.1") (tstamp 88747afb-3e37-4fb3-9c46-f7475d5129cb)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Castellated pads: " (at 98.54 92.81) (layer "User.1") (tstamp 8c9c7577-9bfb-4875-b7fa-22140af2a7ec)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "BOARD CHARACTERISTICS" (at 97.79 68.58) (layer "User.1") (tstamp 9c23439b-eaf7-44f1-a182-a090260035ac)
+    (effects (font (size 2 2) (thickness 0.4)) (justify left top))
+  )
+  (gr_text "None" (at 131.097143 88.295) (layer "User.1") (tstamp a1c9fa32-fbce-4a57-8a6d-fc0ca4274e1d)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "" (at 189.997143 79.265) (layer "User.1") (tstamp a2974a54-1774-400a-ad36-fab9e3fc4a3c)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "0,2000 mm / 0,0000 mm" (at 131.097143 83.78) (layer "User.1") (tstamp a46acfc8-4726-4d85-87d4-b375936ecd26)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Edge card connectors: " (at 98.54 97.325) (layer "User.1") (tstamp b1faaa2d-9964-4a12-89f1-7f814303252c)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "" (at 165.154286 79.265) (layer "User.1") (tstamp b4d14dcb-56f6-45e3-a696-8c7767c8ef0b)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 131.097143 92.81) (layer "User.1") (tstamp b90b0d3d-1a47-4a43-8c79-a20c3ff9ddfc)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Board Thickness: " (at 165.154286 74.75) (layer "User.1") (tstamp e03e67d6-96e2-4311-a0fa-3770a2e1f36e)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "4,6900 mm" (at 189.997143 74.75) (layer "User.1") (tstamp e40566bd-358a-4046-964c-78b8551728c2)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "0,3000 mm" (at 189.997143 83.78) (layer "User.1") (tstamp e562c733-c1d8-47c1-aaca-052a54a75eb3)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
 
   (segment (start 72.456 73.914) (end 72.456 72.456) (width 0.35) (layer "F.Cu") (net 1) (tstamp 05ca8b28-84c5-46b5-9b31-5a2da7d76d2a))
   (segment (start 61.887507 81.28) (end 62.23 81.28) (width 0.35) (layer "F.Cu") (net 1) (tstamp 0fb197aa-2bd5-4bb3-9df9-fada939b87ef))
@@ -15353,6 +15422,33 @@
         (xy 52.638888 70.104)
         (xy 89.124929 70.104)
       )
+    )
+  )
+  (group "group-boardCharacteristics" (id b6fe169d-eb34-410a-a680-0bde0a0fda56)
+    (members
+      02dc32d0-3d35-4cd8-be53-825162733acf
+      1acf5582-352f-43bc-bd42-0be9bf2fcd51
+      1d131ace-cfa7-45e4-a251-c66330a559b9
+      2b241dff-1fb7-498f-9bf7-72e4ffccf675
+      2ee6ebe8-ab38-4be3-8fb4-3f20417c3c22
+      3e48d2f8-4ac5-4ebf-8b04-642e7535ea4a
+      5df557e3-2e80-42c8-819e-a7277dc2b7b3
+      5efa7e91-6047-4590-8add-9c0521e94079
+      63c9ea16-05bc-4e8d-ba60-aeafdba32ab6
+      6d37dea3-75e1-49c0-9514-44253aa2cfd4
+      8238ad5b-0d11-42f2-aeba-d6201d84c218
+      88747afb-3e37-4fb3-9c46-f7475d5129cb
+      8c9c7577-9bfb-4875-b7fa-22140af2a7ec
+      9c23439b-eaf7-44f1-a182-a090260035ac
+      a1c9fa32-fbce-4a57-8a6d-fc0ca4274e1d
+      a2974a54-1774-400a-ad36-fab9e3fc4a3c
+      a46acfc8-4726-4d85-87d4-b375936ecd26
+      b1faaa2d-9964-4a12-89f1-7f814303252c
+      b4d14dcb-56f6-45e3-a696-8c7767c8ef0b
+      b90b0d3d-1a47-4a43-8c79-a20c3ff9ddfc
+      e03e67d6-96e2-4311-a0fa-3770a2e1f36e
+      e40566bd-358a-4046-964c-78b8551728c2
+      e562c733-c1d8-47c1-aaca-052a54a75eb3
     )
   )
 )
